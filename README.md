@@ -32,3 +32,16 @@
 
 ### Prediction results
 <p align="center"> <img src="/screenshots/app_17.jpg"></p>
+
+### Credit cards logging with PaymentMethod from Stripe
+<p align="center"> <img src="/screenshots/fb_app_02.jpg"></p>
+
+### Firebase database
+<p align="center"> <img src="/screenshots/fb_01.jpg"></p>
+<p align="center"> <img src="/screenshots/fb_02.jpg"></p>
+<p align="center"> <img src="/screenshots/fb_03.jpg"></p>
+
+### Firebase Cloud functions
+<p align="center"> <img src="/screenshots/fb_04.jpg"></p>
+
+
