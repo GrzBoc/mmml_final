@@ -4,7 +4,7 @@
 
 
 ### Home screen
-<p align="center"> <img src="/screenshots/app_01.jpg" width="200"  height="200" ></p>
+<p align="center"> <img src="/screenshots/app_01.jpg" ></p>
 
 ### About
 <p align="center"> <img src="/screenshots/app_04.jpg" width="400"  height="200" ></p>
