@@ -1,7 +1,25 @@
 # mmml_final
+## Final homework
 
-
-
+### Team: Standalone 
+1. Midterm flask app was transformed to flutter one.
+2. It is simple application for predicting flight delays based Kaggle competition dataset.
+3. ML model calibration can be found in [notebook](https://github.com/GrzBoc/mlap_strup/blob/master/model_notebook/gb_HW05_def.ipynb)
+4. For the sake of Flutter app model parameters (logistic regression) were extracted from the model and placed as Map in flutter app, where are used to predict flight delays bases on user inputs.
+5. Application operational model:
+  - sing up is required to have access to flight delay functionality;
+  - then to be able to have a prediction an upfront payment has to be done with credit card.
+6. Authentication is based on Firebase - configuration file google-services.json is required in /android/app/ folder.
+7. Payments are based on Stripe - keys should be placed in Stripe_config.dart file in /lib/pages/dictionaries, on the otherhand secret key has to be set in backend server, for sake of this project it is done by firebase cloud services, which require execution firebase functions:config:set stripe.token="own stripe secret token".
+8. Firebase Cloud functions were places in folder firebase_cloud
+9. Below images present:
+  - front end pages
+  - logs of connectivity to stripe services to get Payment Method
+  - structure of firebase database
+  - list of Cloud function
+10. TODOs:
+  - frontend and machine learning tasks are completed as well as payment services on frontend side - all the historical/legacy dependencies were overcome and function on up to date classes
+  - backend payment services still require further work, i.e. not all Cloud functions were fully tested following technical issue in conectivity to test environment in the last week.
 
 ### Home screen
 <p align="center"> <img src="/screenshots/app_01.jpg" ></p>
