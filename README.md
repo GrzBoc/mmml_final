@@ -2,7 +2,7 @@
 ## Final homework
 
 ### Team: Standalone 
-<p align="center"> <img src="/screenshots/app_anim.gif" width=175  height= 350></p>
+<p align="center"> <img src="/screenshots/app_anim.gif" width=185  height= 350></p>
 ### Summary
 1. Midterm flask app was transformed to flutter one.
 2. It is simple application for predicting flight delays based on Kaggle competition dataset.
