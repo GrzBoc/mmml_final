@@ -12,12 +12,13 @@
 6. Authentication is based on Firebase - configuration file google-services.json is required in /android/app/ folder.
 7. Payments are based on Stripe - keys should be placed in Stripe_config.dart file in /lib/pages/dictionaries, on the other hand secret key has to be set in backend server - for sake of this project Firebase Cloud Services are used ( secret key parametrization by: firebase functions:config:set stripe.token="own stripe secret token").
 8. Firebase Cloud functions were placed in folder firebase_cloud.
-9. Below images present:
+9. Icons and logo is stored in assets folder.
+10. Below images present:
   - front end pages
   - logs of connectivity to stripe services to get Payment Method
   - structure of firebase database
   - list of Cloud function
-10. TODOs:
+11. TODOs:
   - frontend and machine learning tasks are completed as well as payment services on frontend side - all the historical/legacy dependencies were overcome and function on up to date classes
   - backend payment services still require further work, i.e. not all Cloud functions were fully tested following technical issue in conectivity to test environment in the last week.
 
