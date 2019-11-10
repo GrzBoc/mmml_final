@@ -10,8 +10,8 @@
   - sing up is required to have access to flight delay functionality;
   - then to be able to have a prediction an upfront payment has to be done with credit card.
 6. Authentication is based on Firebase - configuration file google-services.json is required in /android/app/ folder.
-7. Payments are based on Stripe - keys should be placed in Stripe_config.dart file in /lib/pages/dictionaries, on the otherhand secret key has to be set in backend server, for sake of this project it is done by firebase cloud services, which require execution firebase functions:config:set stripe.token="own stripe secret token".
-8. Firebase Cloud functions were places in folder firebase_cloud
+7. Payments are based on Stripe - keys should be placed in Stripe_config.dart file in /lib/pages/dictionaries, on the other hand secret key has to be set in backend server - for sake of this project Firebase Cloud Services are used ( secret key parametrization by: firebase functions:config:set stripe.token="own stripe secret token").
+8. Firebase Cloud functions were placed in folder firebase_cloud.
 9. Below images present:
   - front end pages
   - logs of connectivity to stripe services to get Payment Method
