@@ -5,7 +5,7 @@
 1. Midterm flask app was transformed to flutter one.
 2. It is simple application for predicting flight delays based on Kaggle competition dataset.
 3. ML model calibration can be found in [notebook](https://github.com/GrzBoc/mlap_strup/blob/master/model_notebook/gb_HW05_def.ipynb)
-4. For the sake of Flutter app model parameters (logistic regression) were extracted from the model and placed as Map in flutter app, where are used to predict flight delays bases on user inputs.
+4. For the sake of Flutter App, model parameters (logistic regression one) were extracted from the model and placed as Map in flutter app and used in App for predictions.
 5. Application operational model:
   - sing up is required to have access to flight delay functionality;
   - then to be able to have a prediction an upfront payment has to be done with credit card.
