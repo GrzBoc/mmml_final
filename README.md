@@ -2,6 +2,8 @@
 ## Final homework
 
 ### Team: Standalone 
+
+### Summary
 1. Midterm flask app was transformed to flutter one.
 2. It is simple application for predicting flight delays based on Kaggle competition dataset.
 3. ML model calibration can be found in [notebook](https://github.com/GrzBoc/mlap_strup/blob/master/model_notebook/gb_HW05_def.ipynb)
